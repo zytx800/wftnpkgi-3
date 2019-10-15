@@ -1,0 +1,30 @@
+workflows:
+  version: 2
+  commit:
+    jobs:
+      - nightly
+  nightly:
+    triggers:
+      - schedule:
+          cron: "0 0 * * *"
+          filters:
+            branches:
+              only:
+                - master
+    jobs:
+      - nightly
+
+version: 2.1
+jobs:
+  nightly:
+    working_directory: ~/repo
+    docker:
+      - image: circleci/node:lts-stretch-browsers
+    steps:
+      - checkout
+      - run:
+          name: Install dependencies
+          command: npm install
+      - run:
+          name: Run test
+          command: npm run test

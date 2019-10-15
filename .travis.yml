@@ -1,0 +1,15 @@
+sudo: false
+dist: trusty
+language: node_js
+git:
+  depth: 1
+matrix:
+  include:
+    - os: linux
+      node_js: "node"
+    - os: osx
+      node_js: "node"
+install:
+  - npm install
+script:
+  - npm run test

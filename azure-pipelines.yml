@@ -1,0 +1,34 @@
+schedules:
+- cron: '0 0 * * *'
+  displayName: Schedule build
+  branches:
+    include:
+    - master
+  always: 'true'
+
+strategy:
+  matrix:
+    linux-node-10:
+      imageName: 'ubuntu-latest'
+      nodeVersion: '10.x'
+    macOS-node-10:
+      imageName: 'macOS-latest'
+      nodeVersion: '10.x'
+    windows-2019-node-10:
+      imageName: 'windows-2019'
+      nodeVersion: '10.x'
+    win1803-node-10:
+      imageName: 'win1803'
+      nodeVersion: '10.x'
+
+pool:
+  vmImage: $(imageName)
+
+steps:
+- task: UseNode@1
+  inputs:
+    version: '$(nodeVersion)'
+
+- script: |
+    npm install
+    npm run test
