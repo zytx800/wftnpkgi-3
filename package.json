@@ -11,7 +11,7 @@
     "@dagonmetric/ng-log-firebase-analytics": "1.0.0",
     "@dagonmetric/ng-log-gtag": "2.2.0",
     "@dagonmetric/ng-log": "2.2.1",
-    "@myanmartools/ng-zawgyi-detector": "1.1.4",
+    "@myanmartools/ng-zawgyi-detector": "1.2.0",
     "@myanmartools/zawgyi-unicode-translit-rules": "1.1.3"
   }
 }
