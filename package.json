@@ -8,7 +8,7 @@
   "dependencies": {
     "@angular/core": "9.1.11",
     "@dagonmetric/ng-log-facebook-analytics": "1.0.1",
-    "@dagonmetric/ng-log-firebase-analytics": "1.0.1",
+    "@dagonmetric/ng-log-firebase-analytics": "2.0.0",
     "@dagonmetric/ng-log-gtag": "2.2.3",
     "@dagonmetric/ng-log": "2.2.4",
     "@myanmartools/ng-zawgyi-detector": "1.2.1",
