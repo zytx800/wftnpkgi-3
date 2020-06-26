@@ -6,7 +6,7 @@
     "test": "echo \"Just testing!\""
   },
   "dependencies": {
-    "@angular/core": "10.0.0",
+    "@angular/core": "10.0.1",
     "@dagonmetric/ng-log-facebook-analytics": "1.0.3",
     "@dagonmetric/ng-log-firebase-analytics": "2.0.1",
     "@dagonmetric/ng-log-gtag": "2.2.5",
