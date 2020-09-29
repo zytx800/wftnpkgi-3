@@ -10,7 +10,7 @@
     "@dagonmetric/ng-log-facebook-analytics": "1.1.0",
     "@dagonmetric/ng-log-firebase-analytics": "2.1.0",
     "@dagonmetric/ng-log-gtag": "2.3.0",
-    "@dagonmetric/ng-log": "2.3.0",
+    "@dagonmetric/ng-log": "2.3.1",
     "@myanmartools/ng-zawgyi-detector": "1.2.4",
     "@myanmartools/zawgyi-unicode-translit-rules": "1.1.4",
     "lib-tools": "1.2.3"
