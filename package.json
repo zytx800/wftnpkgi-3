@@ -9,7 +9,7 @@
     "@angular/core": "10.1.4",
     "@dagonmetric/ng-log-facebook-analytics": "1.1.1",
     "@dagonmetric/ng-log-firebase-analytics": "2.1.2",
-    "@dagonmetric/ng-log-gtag": "2.3.0",
+    "@dagonmetric/ng-log-gtag": "2.3.1",
     "@dagonmetric/ng-log": "2.3.2",
     "@myanmartools/ng-zawgyi-detector": "1.2.4",
     "@myanmartools/zawgyi-unicode-translit-rules": "1.1.4",
