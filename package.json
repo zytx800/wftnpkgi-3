@@ -13,6 +13,6 @@
     "@dagonmetric/ng-log": "2.3.2",
     "@myanmartools/ng-zawgyi-detector": "1.2.5",
     "@myanmartools/zawgyi-unicode-translit-rules": "1.1.5",
-    "lib-tools": "2.0.0"
+    "lib-tools": "2.0.1"
   }
 }
